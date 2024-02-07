@@ -4,7 +4,7 @@ import ProductList from './ProductList';
 import '../index.css'
 export default function Home() {
   return (
-    <div>
+    <div className='div-container'>
         <h1 className='title'>Fake Store</h1>
 
         <ProductList/>
